@@ -4,4 +4,6 @@ def euclide(x,y)->int:
     else:
         return euclide(y,x%y)
 
-print(euclide(15,12))
+x = input("primo numero:")
+y = input("secondo numero:")
+print(euclide(int(x),int(y)))
